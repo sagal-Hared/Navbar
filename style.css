@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0080BA;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .left p {
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    gap: 18px;
+}
+
+nav .right ul li {
+    list-style: none;
+    font-size: 27px;
+    text-transform: capitalize;
+}
